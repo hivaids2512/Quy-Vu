@@ -6,6 +6,23 @@
 - ExpressJS - Typescript
 - Database: Mongodb, ORM: Mongoose
 
+## Running project
+
+### Add .env file
+```
+cp .env.sample .env
+```
+
+### Start local server with hot reload
+```
+npm run start:dev
+```
+
+### Start in production mode
+```
+npm run start
+```
+
 ## Available Apis
 
 ### Listing users
